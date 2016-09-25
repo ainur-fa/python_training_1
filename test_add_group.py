@@ -18,6 +18,7 @@ class test_add_group(unittest.TestCase):
         wd = self.wd
         #open home page
         wd.get("http://localhost/addressbook/group.php")
+        # login
         wd.find_element_by_name("user").click()
         wd.find_element_by_name("user").clear()
         wd.find_element_by_name("user").send_keys("admin")

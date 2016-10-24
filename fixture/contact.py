@@ -78,6 +78,7 @@ class ContactHelper:
         contacts = []
         for element in wd.find_elements_by_css_selector("td.center"):
             if len(element.find_elements_by_name("selected[]")) == 1:
+                text = element.find_element_by_name("selected[]").get_attribute("title").split()[1][1:]
                 id = element.find_element_by_name("selected[]").get_attribute("value")
                 contacts.append(Contact(firstname = text, id = id))
         return contacts

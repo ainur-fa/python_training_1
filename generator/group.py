@@ -22,8 +22,6 @@ for o, a in opts:
     elif o == "-f":
         f = a
 
-
-
 def random_string(prefix, maxlen):
     symbols = string.ascii_letters + string.digits +  " "*10
     return prefix + "".join([random.choice(symbols) for i in range(random.randrange(maxlen))])
@@ -33,7 +31,7 @@ testdata = [Group(name="", header="", footer="")] + [
     for i in range(n)
 ]
 
-file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", f)
+file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../", f)
 
-with open(file, "w") as out:
-    out.write(json.dumps(testdata, default = lambda x: x.__dict__, indent=2) )
+with open(file, "w") as f:
+    f.write(json.dumps(testdata, default = lambda x: x.__dict__, indent=2) )

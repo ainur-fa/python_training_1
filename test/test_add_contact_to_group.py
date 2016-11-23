@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 from model.contact import Contact
 from model.group import Group
-import time
 from fixture.orm import ORMFixture
 db_orm = ORMFixture(host="127.0.0.1", name="addressbook", user="root",password="")
-
 import random
 
 def test_add_contact_to_group(app, db):

@@ -181,3 +181,9 @@ class ContactHelper:
             if wd.find_element_by_xpath("//div[@class='right']/select//option[%s]" % str(i + 1)).text == name:
                 wd.find_element_by_xpath("//div[@class='right']/select//option[%s]" % str(i + 1)).click()
                 break
+
+    def del_contact_in_group(self, contact_id, group_id):
+        wd = self.app.wd
+        wd.get("http://localhost/addressbook/index.php?group={0}".format(group_id))
+        self.select_contact_by_id(contact_id)
+        wd.find_element_by_name("remove").click()

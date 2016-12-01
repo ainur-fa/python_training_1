@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 from model.contact import Contact
+from model.group import Group
 import re
+import random
 
 class ContactHelper:
 
@@ -186,4 +188,16 @@ class ContactHelper:
         wd = self.app.wd
         wd.get("http://localhost/addressbook/index.php?group={0}".format(group_id))
         self.select_contact_by_id(contact_id)
-        wd.find_element_by_name("remove").click()
+        wd.find_element_by_xpath("//div[@id='content']/form[2]/div[2]/input").click()
+        wd.switch_to_alert().accept()
+
+    def check_available_min_requirement(self, app, db):
+        if len(db.get_contact_list()) == 0:
+            self.create(Contact(firstname="tester", email="test@test", mobilephone="911"))
+        if len(db.get_group_list()) == 0:
+            app.group.create(Group(name="test"))
+
+    def add_pair_min_requirement(self, db):
+        group = random.choice(db.get_group_list())
+        contact = random.choice(db.get_contact_list())
+        self.add_contact_to_group(contact.id, group.name)

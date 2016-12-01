@@ -6,7 +6,10 @@ db_orm = ORMFixture(host="127.0.0.1", name="addressbook", user="root",password="
 import random
 
 def test_add_contact_to_group(app, db):
-    app.contact.check_available_min_requirement(app, db)
+    if len(db.get_contact_list()) == 0:
+        app.contact.create(Contact(firstname="tester", email="test@test", mobilephone="911"))
+    if len(db.get_group_list()) == 0:
+        app.group.create(Group(name = "test"))
     group = random.choice(db.get_group_list())
     contacts_not_in_group = db_orm.get_contacts_not_in_group(Group(id=group.id))
     contact = random.choice(contacts_not_in_group)

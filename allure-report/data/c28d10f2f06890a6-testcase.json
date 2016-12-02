@@ -1,0 +1,104 @@
+{
+  "uid" : "c28d10f2f06890a6",
+  "name" : "test_delete_some_contact",
+  "title" : "Test delete some contact",
+  "time" : {
+    "start" : 1480691482695,
+    "stop" : 1480691485492,
+    "duration" : 2797
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "e55c9174f842a6ed",
+    "name" : "test.test_del_contact",
+    "title" : "Test del contact"
+  },
+  "steps" : [ {
+    "name" : "Given a contact list",
+    "title" : "Given a contact list",
+    "time" : {
+      "start" : 1480691484319,
+      "stop" : 1480691484319,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When get random contact",
+    "title" : "When get random contact",
+    "time" : {
+      "start" : 1480691484319,
+      "stop" : 1480691484319,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I delete 258:Test666999;lastnameVRb k",
+    "title" : "When I delete 258:Test666999;lastnameVRb k",
+    "time" : {
+      "start" : 1480691484319,
+      "stop" : 1480691485492,
+      "duration" : 1173
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new contact list is equal to the old list with the deleted contact",
+    "title" : "Then the new contact list is equal to the old list with the deleted contact",
+    "time" : {
+      "start" : 1480691485492,
+      "stop" : 1480691485492,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "qas"
+  }, {
+    "name" : "thread",
+    "value" : "5608-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_del_contact"
+  } ],
+  "parameters" : [ ]
+}

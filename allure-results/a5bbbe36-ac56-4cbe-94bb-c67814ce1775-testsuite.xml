@@ -1,0 +1,41 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1480691485492" stop="1480691489913">
+  <name>test.test_modify_contact</name>
+  <test-cases>
+    <test-case start="1480691485492" status="passed" stop="1480691489913">
+      <name>test_modify_contact_firstname</name>
+      <steps>
+        <step start="1480691488648" status="passed" stop="1480691488663">
+          <name>Given a contact list</name>
+          <title>Given a contact list</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691488663" status="passed" stop="1480691488663">
+          <name>When get random contact</name>
+          <title>When get random contact</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691488663" status="passed" stop="1480691489913">
+          <name>When I'm modify contact 279:firstnamewlb4XJ;lastnameVRb k</name>
+          <title>When I'm modify contact 279:firstnamewlb4XJ;lastnameVRb k</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691489913" status="passed" stop="1480691489913">
+          <name>Then the new contact list is equal to the old list with the modified contact</name>
+          <title>Then the new contact list is equal to the old list with the modified contact</title>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5608-MainThread"/>
+        <label name="host" value="qas"/>
+      </labels>
+    </test-case>
+  </test-cases>
+  <labels/>
+</ns0:test-suite>

@@ -1,0 +1,44 @@
+{
+  "uid" : "e896f15070499eaf",
+  "name" : "test_add_group[None:name8d 7Z9;headerjy l2;footers6Y RZ O]",
+  "title" : "Test add group [None:name8d 7Z9;headerjy l2;footers6Y RZ O]",
+  "time" : {
+    "start" : 1480688680259,
+    "stop" : 1480688683581,
+    "duration" : 3322
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "b0c74bd805a54a",
+    "name" : "test.test_add_group",
+    "title" : "Test add group"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "qas"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "3092-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_add_group"
+  } ],
+  "parameters" : [ ]
+}

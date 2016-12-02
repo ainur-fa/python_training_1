@@ -1,0 +1,89 @@
+{
+  "uid" : "88d590bb88c0dafa",
+  "name" : "test_add_group[None:name;headerAQ1dPsZfOo7Q h Wp8;footer oi 1MSIFw 9R6i4h9]",
+  "title" : "Test add group [None:name;headerAQ1dPsZfOo7Q h Wp8;footer oi 1MSIFw 9R6i4h9]",
+  "time" : {
+    "start" : 1480689518495,
+    "stop" : 1480689521804,
+    "duration" : 3309
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "ea9e9fbc86b3cb45",
+    "name" : "test.test_add_group",
+    "title" : "Test add group"
+  },
+  "steps" : [ {
+    "name" : "Given a group list",
+    "title" : "Given a group list",
+    "time" : {
+      "start" : 1480689519961,
+      "stop" : 1480689519961,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I add a group None:name;headerAQ1dPsZfOo7Q h Wp8;footer oi 1MSIFw 9R6i4h9 to the list",
+    "title" : "When I add a group None:name;headerAQ1dPsZfOo7Q h Wp8;footer oi 1MSIFw 9R6i4h9 to the list",
+    "time" : {
+      "start" : 1480689519961,
+      "stop" : 1480689521804,
+      "duration" : 1843
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new group list is equal to the old list with the added group",
+    "title" : "Then the new group list is equal to the old list with the added group",
+    "time" : {
+      "start" : 1480689521804,
+      "stop" : 1480689521804,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "qas"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_add_group"
+  }, {
+    "name" : "thread",
+    "value" : "5352-MainThread"
+  } ],
+  "parameters" : [ ]
+}

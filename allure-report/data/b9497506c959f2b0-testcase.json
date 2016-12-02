@@ -1,0 +1,104 @@
+{
+  "uid" : "b9497506c959f2b0",
+  "name" : "test_modify_group_name",
+  "title" : "Test modify group name",
+  "time" : {
+    "start" : 1480691489913,
+    "stop" : 1480691503132,
+    "duration" : 13219
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "90b3f53f9fe31256",
+    "name" : "test.test_modify_group",
+    "title" : "Test modify group"
+  },
+  "steps" : [ {
+    "name" : "Given a group list",
+    "title" : "Given a group list",
+    "time" : {
+      "start" : 1480691501930,
+      "stop" : 1480691501930,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I get random group",
+    "title" : "When I get random group",
+    "time" : {
+      "start" : 1480691501930,
+      "stop" : 1480691501930,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I'm modify group 215:New group;headerHZAT7R2mmQ;footerP",
+    "title" : "When I'm modify group 215:New group;headerHZAT7R2mmQ;footerP",
+    "time" : {
+      "start" : 1480691501930,
+      "stop" : 1480691503132,
+      "duration" : 1202
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new group list is equal to the old list with the modified group",
+    "title" : "Then the new group list is equal to the old list with the modified group",
+    "time" : {
+      "start" : 1480691503132,
+      "stop" : 1480691503132,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "qas"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_modify_group"
+  }, {
+    "name" : "thread",
+    "value" : "5608-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,180 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1480691443710" stop="1480691479351">
+  <name>test.test_add_contact</name>
+  <test-cases>
+    <test-case start="1480691443710" status="passed" stop="1480691448585">
+      <name>test_add_contact[None:;]</name>
+      <steps>
+        <step start="1480691445054" status="passed" stop="1480691445054">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691445054" status="passed" stop="1480691448179">
+          <name>When I add a contact None:; to the list</name>
+          <title>When I add a contact None:; to the list</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691448179" status="passed" stop="1480691448585">
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5608-MainThread"/>
+        <label name="host" value="qas"/>
+      </labels>
+    </test-case>
+    <test-case start="1480691448585" status="passed" stop="1480691454429">
+      <name>test_add_contact[None:firstname;lastnamelWyqTh2]</name>
+      <steps>
+        <step start="1480691450663" status="passed" stop="1480691450663">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691450663" status="passed" stop="1480691454319">
+          <name>When I add a contact None:firstname;lastnamelWyqTh2 to the list</name>
+          <title>When I add a contact None:firstname;lastnamelWyqTh2 to the list</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691454319" status="passed" stop="1480691454429">
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5608-MainThread"/>
+        <label name="host" value="qas"/>
+      </labels>
+    </test-case>
+    <test-case start="1480691454429" status="passed" stop="1480691460367">
+      <name>test_add_contact[None:firstnamewlb4XJ;lastnameVRb k]</name>
+      <steps>
+        <step start="1480691456679" status="passed" stop="1480691456679">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691456679" status="passed" stop="1480691460257">
+          <name>When I add a contact None:firstnamewlb4XJ;lastnameVRb k to the list</name>
+          <title>When I add a contact None:firstnamewlb4XJ;lastnameVRb k to the list</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691460257" status="passed" stop="1480691460367">
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5608-MainThread"/>
+        <label name="host" value="qas"/>
+      </labels>
+    </test-case>
+    <test-case start="1480691460367" status="passed" stop="1480691466742">
+      <name>test_add_contact[None:firstname1OB1ec WD;lastname J]</name>
+      <steps>
+        <step start="1480691462694" status="passed" stop="1480691462694">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691462694" status="passed" stop="1480691466476">
+          <name>When I add a contact None:firstname1OB1ec WD;lastname J to the list</name>
+          <title>When I add a contact None:firstname1OB1ec WD;lastname J to the list</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691466476" status="passed" stop="1480691466742">
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5608-MainThread"/>
+        <label name="host" value="qas"/>
+      </labels>
+    </test-case>
+    <test-case start="1480691466742" status="passed" stop="1480691473132">
+      <name>test_add_contact[None:firstnameExHlN NU;lastnameQ nfr]</name>
+      <steps>
+        <step start="1480691469163" status="passed" stop="1480691469163">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691469163" status="passed" stop="1480691473022">
+          <name>When I add a contact None:firstnameExHlN NU;lastnameQ nfr to the list</name>
+          <title>When I add a contact None:firstnameExHlN NU;lastnameQ nfr to the list</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691473022" status="passed" stop="1480691473132">
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5608-MainThread"/>
+        <label name="host" value="qas"/>
+      </labels>
+    </test-case>
+    <test-case start="1480691473132" status="passed" stop="1480691479351">
+      <name>test_add_contact[None:firstname5HpqyQ0T1;lastnameIAkNef]</name>
+      <steps>
+        <step start="1480691475460" status="passed" stop="1480691475460">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691475460" status="passed" stop="1480691479226">
+          <name>When I add a contact None:firstname5HpqyQ0T1;lastnameIAkNef to the list</name>
+          <title>When I add a contact None:firstname5HpqyQ0T1;lastnameIAkNef to the list</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691479226" status="passed" stop="1480691479351">
+          <name>Then the new contact list is equal to the old list with the added contact</name>
+          <title>Then the new contact list is equal to the old list with the added contact</title>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5608-MainThread"/>
+        <label name="host" value="qas"/>
+      </labels>
+    </test-case>
+  </test-cases>
+  <labels/>
+</ns0:test-suite>

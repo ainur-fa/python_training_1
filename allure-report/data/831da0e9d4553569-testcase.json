@@ -1,0 +1,104 @@
+{
+  "uid" : "831da0e9d4553569",
+  "name" : "test_delete_some_group",
+  "title" : "Test delete some group",
+  "time" : {
+    "start" : 1480691479351,
+    "stop" : 1480691482695,
+    "duration" : 3344
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "e092dd8624a249e6",
+    "name" : "test.test_del_group",
+    "title" : "Test del group"
+  },
+  "steps" : [ {
+    "name" : "Given a group list",
+    "title" : "Given a group list",
+    "time" : {
+      "start" : 1480691481757,
+      "stop" : 1480691481757,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When get random group",
+    "title" : "When get random group",
+    "time" : {
+      "start" : 1480691481757,
+      "stop" : 1480691481757,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I delete 238:;;",
+    "title" : "When I delete 238:;;",
+    "time" : {
+      "start" : 1480691481757,
+      "stop" : 1480691482679,
+      "duration" : 922
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new group list is equal to the old list with the deleted group",
+    "title" : "Then the new group list is equal to the old list with the deleted group",
+    "time" : {
+      "start" : 1480691482679,
+      "stop" : 1480691482695,
+      "duration" : 16
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "qas"
+  }, {
+    "name" : "thread",
+    "value" : "5608-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_del_group"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "d919c2d60a0f6eda",
+  "name" : "test_add_contact[None:firstname1OB1ec WD;lastname J]",
+  "title" : "Test add contact [None:firstname1OB1ec WD;lastname J]",
+  "time" : {
+    "start" : 1480691460367,
+    "stop" : 1480691466742,
+    "duration" : 6375
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "4a605447dddf2daa",
+    "name" : "test.test_add_contact",
+    "title" : "Test add contact"
+  },
+  "steps" : [ {
+    "name" : "Given a group list",
+    "title" : "Given a group list",
+    "time" : {
+      "start" : 1480691462694,
+      "stop" : 1480691462694,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I add a contact None:firstname1OB1ec WD;lastname J to the list",
+    "title" : "When I add a contact None:firstname1OB1ec WD;lastname J to the list",
+    "time" : {
+      "start" : 1480691462694,
+      "stop" : 1480691466476,
+      "duration" : 3782
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new contact list is equal to the old list with the added contact",
+    "title" : "Then the new contact list is equal to the old list with the added contact",
+    "time" : {
+      "start" : 1480691466476,
+      "stop" : 1480691466742,
+      "duration" : 266
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "qas"
+  }, {
+    "name" : "thread",
+    "value" : "5608-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_add_contact"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

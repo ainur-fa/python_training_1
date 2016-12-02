@@ -1,0 +1,298 @@
+{
+  "time" : {
+    "start" : 1480691419050,
+    "stop" : 1480691503132,
+    "duration" : 84082
+  },
+  "testSuites" : [ {
+    "uid" : "e092dd8624a249e6",
+    "name" : "test.test_del_group",
+    "title" : "Test del group",
+    "time" : {
+      "start" : 1480691479351,
+      "stop" : 1480691482695,
+      "duration" : 3344
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "831da0e9d4553569",
+      "name" : "test_delete_some_group",
+      "title" : "Test delete some group",
+      "time" : {
+        "start" : 1480691479351,
+        "stop" : 1480691482695,
+        "duration" : 3344
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "90b3f53f9fe31256",
+    "name" : "test.test_modify_group",
+    "title" : "Test modify group",
+    "time" : {
+      "start" : 1480691489913,
+      "stop" : 1480691503132,
+      "duration" : 13219
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "b9497506c959f2b0",
+      "name" : "test_modify_group_name",
+      "title" : "Test modify group name",
+      "time" : {
+        "start" : 1480691489913,
+        "stop" : 1480691503132,
+        "duration" : 13219
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "4a605447dddf2daa",
+    "name" : "test.test_add_contact",
+    "title" : "Test add contact",
+    "time" : {
+      "start" : 1480691443710,
+      "stop" : 1480691479351,
+      "duration" : 35641
+    },
+    "statistic" : {
+      "total" : 6,
+      "passed" : 6,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "b45f010bff651e94",
+      "name" : "test_add_contact[None:;]",
+      "title" : "Test add contact [None:;]",
+      "time" : {
+        "start" : 1480691443710,
+        "stop" : 1480691448585,
+        "duration" : 4875
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "b53a896a924c4f9c",
+      "name" : "test_add_contact[None:firstname;lastnamelWyqTh2]",
+      "title" : "Test add contact [None:firstname;lastnamelWyqTh2]",
+      "time" : {
+        "start" : 1480691448585,
+        "stop" : 1480691454429,
+        "duration" : 5844
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "2389415649c67762",
+      "name" : "test_add_contact[None:firstnamewlb4XJ;lastnameVRb k]",
+      "title" : "Test add contact [None:firstnamewlb4XJ;lastnameVRb k]",
+      "time" : {
+        "start" : 1480691454429,
+        "stop" : 1480691460367,
+        "duration" : 5938
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d919c2d60a0f6eda",
+      "name" : "test_add_contact[None:firstname1OB1ec WD;lastname J]",
+      "title" : "Test add contact [None:firstname1OB1ec WD;lastname J]",
+      "time" : {
+        "start" : 1480691460367,
+        "stop" : 1480691466742,
+        "duration" : 6375
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "dceb6f3e2236c84d",
+      "name" : "test_add_contact[None:firstnameExHlN NU;lastnameQ nfr]",
+      "title" : "Test add contact [None:firstnameExHlN NU;lastnameQ nfr]",
+      "time" : {
+        "start" : 1480691466742,
+        "stop" : 1480691473132,
+        "duration" : 6390
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "b5a2736da9d0bb98",
+      "name" : "test_add_contact[None:firstname5HpqyQ0T1;lastnameIAkNef]",
+      "title" : "Test add contact [None:firstname5HpqyQ0T1;lastnameIAkNef]",
+      "time" : {
+        "start" : 1480691473132,
+        "stop" : 1480691479351,
+        "duration" : 6219
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "232b4ea0375dc979",
+    "name" : "test.test_modify_contact",
+    "title" : "Test modify contact",
+    "time" : {
+      "start" : 1480691485492,
+      "stop" : 1480691489913,
+      "duration" : 4421
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "b7818890bb3f6e66",
+      "name" : "test_modify_contact_firstname",
+      "title" : "Test modify contact firstname",
+      "time" : {
+        "start" : 1480691485492,
+        "stop" : 1480691489913,
+        "duration" : 4421
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "e55c9174f842a6ed",
+    "name" : "test.test_del_contact",
+    "title" : "Test del contact",
+    "time" : {
+      "start" : 1480691482695,
+      "stop" : 1480691485492,
+      "duration" : 2797
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "c28d10f2f06890a6",
+      "name" : "test_delete_some_contact",
+      "title" : "Test delete some contact",
+      "time" : {
+        "start" : 1480691482695,
+        "stop" : 1480691485492,
+        "duration" : 2797
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "5498f597cf6d7551",
+    "name" : "test.test_add_group",
+    "title" : "Test add group",
+    "time" : {
+      "start" : 1480691419050,
+      "stop" : 1480691443710,
+      "duration" : 24660
+    },
+    "statistic" : {
+      "total" : 6,
+      "passed" : 6,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "965a0d3b33468692",
+      "name" : "test_add_group[None:;;]",
+      "title" : "Test add group [None:;;]",
+      "time" : {
+        "start" : 1480691419050,
+        "stop" : 1480691427783,
+        "duration" : 8733
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "26d65f02211a28d",
+      "name" : "test_add_group[None:nameE6 b2z5W;headerHZAT7R2mmQ;footerP]",
+      "title" : "Test add group [None:nameE6 b2z5W;headerHZAT7R2mmQ;footerP]",
+      "time" : {
+        "start" : 1480691427784,
+        "stop" : 1480691430856,
+        "duration" : 3072
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "9d5307f13d88524d",
+      "name" : "test_add_group[None:name8d 7Z9;headerjy l2;footers6Y RZ O]",
+      "title" : "Test add group [None:name8d 7Z9;headerjy l2;footers6Y RZ O]",
+      "time" : {
+        "start" : 1480691430857,
+        "stop" : 1480691434016,
+        "duration" : 3159
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "2739da100c74a788",
+      "name" : "test_add_group[None:name;header H8xyIOjIcE;footer4pXlQ9Soc]",
+      "title" : "Test add group [None:name;header H8xyIOjIcE;footer4pXlQ9Soc]",
+      "time" : {
+        "start" : 1480691434016,
+        "stop" : 1480691437056,
+        "duration" : 3040
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "71420761edabbf9d",
+      "name" : "test_add_group[None:name;headerAQ1dPsZfOo7Q h Wp8;footer oi 1MSIFw 9R6i4h9]",
+      "title" : "Test add group [None:name;headerAQ1dPsZfOo7Q h Wp8;footer oi 1MSIFw 9R6i4h9]",
+      "time" : {
+        "start" : 1480691437057,
+        "stop" : 1480691440335,
+        "duration" : 3278
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "48dcf4e8fc1f4a93",
+      "name" : "test_add_group[None:namepczV;headerbkpsPXL;footer8S2 l mw]",
+      "title" : "Test add group [None:namepczV;headerbkpsPXL;footer8S2 l mw]",
+      "time" : {
+        "start" : 1480691440335,
+        "stop" : 1480691443710,
+        "duration" : 3375
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

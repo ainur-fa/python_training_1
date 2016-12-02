@@ -1,0 +1,41 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1480691482695" stop="1480691485492">
+  <name>test.test_del_contact</name>
+  <test-cases>
+    <test-case start="1480691482695" status="passed" stop="1480691485492">
+      <name>test_delete_some_contact</name>
+      <steps>
+        <step start="1480691484319" status="passed" stop="1480691484319">
+          <name>Given a contact list</name>
+          <title>Given a contact list</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691484319" status="passed" stop="1480691484319">
+          <name>When get random contact</name>
+          <title>When get random contact</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691484319" status="passed" stop="1480691485492">
+          <name>When I delete 258:Test666999;lastnameVRb k</name>
+          <title>When I delete 258:Test666999;lastnameVRb k</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691485492" status="passed" stop="1480691485492">
+          <name>Then the new contact list is equal to the old list with the deleted contact</name>
+          <title>Then the new contact list is equal to the old list with the deleted contact</title>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5608-MainThread"/>
+        <label name="host" value="qas"/>
+      </labels>
+    </test-case>
+  </test-cases>
+  <labels/>
+</ns0:test-suite>

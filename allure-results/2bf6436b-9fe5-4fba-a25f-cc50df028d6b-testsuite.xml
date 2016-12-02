@@ -1,0 +1,41 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1480691489913" stop="1480691503132">
+  <name>test.test_modify_group</name>
+  <test-cases>
+    <test-case start="1480691489913" status="passed" stop="1480691503132">
+      <name>test_modify_group_name</name>
+      <steps>
+        <step start="1480691501930" status="passed" stop="1480691501930">
+          <name>Given a group list</name>
+          <title>Given a group list</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691501930" status="passed" stop="1480691501930">
+          <name>When I get random group</name>
+          <title>When I get random group</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691501930" status="passed" stop="1480691503132">
+          <name>When I'm modify group 215:New group;headerHZAT7R2mmQ;footerP</name>
+          <title>When I'm modify group 215:New group;headerHZAT7R2mmQ;footerP</title>
+          <steps/>
+          <attachments/>
+        </step>
+        <step start="1480691503132" status="passed" stop="1480691503132">
+          <name>Then the new group list is equal to the old list with the modified group</name>
+          <title>Then the new group list is equal to the old list with the modified group</title>
+          <steps/>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5608-MainThread"/>
+        <label name="host" value="qas"/>
+      </labels>
+    </test-case>
+  </test-cases>
+  <labels/>
+</ns0:test-suite>

@@ -1,0 +1,104 @@
+{
+  "uid" : "b7818890bb3f6e66",
+  "name" : "test_modify_contact_firstname",
+  "title" : "Test modify contact firstname",
+  "time" : {
+    "start" : 1480691485492,
+    "stop" : 1480691489913,
+    "duration" : 4421
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "232b4ea0375dc979",
+    "name" : "test.test_modify_contact",
+    "title" : "Test modify contact"
+  },
+  "steps" : [ {
+    "name" : "Given a contact list",
+    "title" : "Given a contact list",
+    "time" : {
+      "start" : 1480691488648,
+      "stop" : 1480691488663,
+      "duration" : 15
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When get random contact",
+    "title" : "When get random contact",
+    "time" : {
+      "start" : 1480691488663,
+      "stop" : 1480691488663,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I'm modify contact 279:firstnamewlb4XJ;lastnameVRb k",
+    "title" : "When I'm modify contact 279:firstnamewlb4XJ;lastnameVRb k",
+    "time" : {
+      "start" : 1480691488663,
+      "stop" : 1480691489913,
+      "duration" : 1250
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new contact list is equal to the old list with the modified contact",
+    "title" : "Then the new contact list is equal to the old list with the modified contact",
+    "time" : {
+      "start" : 1480691489913,
+      "stop" : 1480691489913,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "qas"
+  }, {
+    "name" : "thread",
+    "value" : "5608-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_modify_contact"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

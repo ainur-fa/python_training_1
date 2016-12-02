@@ -167,22 +167,14 @@ class ContactHelper:
         secondaryphone = re.search("P: (.*)", text).group(1)
         return Contact(homephone=homephone, mobilephone=mobilephone, workphone=workphone, secondaryphone=secondaryphone)
 
-    def add_contact_to_group(self, id, name):
+    def add_contact_to_group(self, contact_id, group_id):
         import time
         wd = self.app.wd
         self.open_home_page()
-        self.select_contact_by_id(id)
-        self.select_group_for_add_contact(name)
+        self.select_contact_by_id(contact_id)
+        wd.find_element_by_xpath("//select[@name='to_group']//option[@value='{0}']".format(group_id))
         wd.find_element_by_name("add").click()
         self.open_home_page()
-
-    def select_group_for_add_contact(self, name):
-        wd = self.app.wd
-        length = len(wd.find_elements_by_xpath("//div[@class='right']/select//option"))
-        for i in range(length):
-            if wd.find_element_by_xpath("//div[@class='right']/select//option[%s]" % str(i + 1)).text == name:
-                wd.find_element_by_xpath("//div[@class='right']/select//option[%s]" % str(i + 1)).click()
-                break
 
     def del_contact_in_group(self, contact_id, group_id):
         wd = self.app.wd
@@ -197,7 +189,3 @@ class ContactHelper:
         if len(db.get_group_list()) == 0:
             app.group.create(Group(name="test"))
 
-    def add_pair_min_requirement(self, db):
-        group = random.choice(db.get_group_list())
-        contact = random.choice(db.get_contact_list())
-        self.add_contact_to_group(contact.id, group.name)

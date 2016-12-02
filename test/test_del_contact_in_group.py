@@ -14,12 +14,12 @@ def test_del_contact_in_group(app, db, orm):
     if list ==[]:
         group = random.choice(db.get_group_list())
         contact = random.choice(db.get_contact_list())
-        app.contact.add_contact_to_group(contact.id, group.name)
+        app.contact.add_contact_to_group(contact.id, group.id)
         list.append(orm.get_contact_list()[0])
 
     contact = random.choice(list)
-    print(contact)
     group =  random.choice(orm.get_group_where_contact(Contact(id=contact.id)))
-    print(group)
+    old_contacts = orm.get_contacts_in_group(group)
     app.contact.del_contact_in_group(contact.id, group.id)
-    assert contact not in orm.get_contacts_in_group(Group(id=group.id))
+    new_contacts = orm.get_contacts_in_group(group)
+    assert sorted(old_contacts, key=Contact.id_or_max) == sorted(new_contacts, key=Contact.id_or_max)
